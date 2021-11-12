@@ -22,7 +22,7 @@ public class Triangle implements Shape{
     public float getPerimeter(int lado) {
         // formula: Perimetro = L + L + L = 3L
         float perimetro = 0;
-        for(int i = 0; i < 2; i++){ perimetro += lado; }
+        for(int i = 0; i < 3; i++){ perimetro += lado; }
         return perimetro;
     }
 }
